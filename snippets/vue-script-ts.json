@@ -1,0 +1,18 @@
+{
+  "Vue Composition API - script setup & props": {
+    "prefix": "v3defineProps",
+    "body": [
+      "const props = defineProps({",
+      "\t${1}",
+      "})"
+    ],
+    "description": "Composition API script setup - defineProps"
+  },
+  "Vue Composition API - Typescript": {
+    "prefix": "v3defineEmits",
+    "body": [
+      "const emit = defineEmits(['${1}'])"
+    ],
+    "description": "Composition API script setup - defineEmits"
+  }
+}
