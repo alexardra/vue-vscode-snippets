@@ -129,6 +129,14 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `v3onbeforeunmount` | Lifecycle hook - (beforeDestroy) onBeforeUnmount      |
 | `v3useinoptions`    | Use Composition API in Options API                    |
 
+
+### Vue 3 script setup
+| ------------------- | ----------------------------------------------------- |
+| `v3defineProps`        | Vue Composition API script setup defineProps       |
+| `v3defineEmits`        | Vue Composition API script setup defineEmits       |
+| `v3defineSlots`        | Vue Composition API script setup defineSlots       |
+
+
 ### Vuex
 
 | Snippet         | Purpose                        |

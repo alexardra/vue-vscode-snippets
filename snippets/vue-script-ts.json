@@ -8,11 +8,20 @@
     ],
     "description": "Composition API script setup - defineProps"
   },
-  "Vue Composition API - Typescript": {
+  "Vue Composition API - script setup & emits": {
     "prefix": "v3defineEmits",
     "body": [
       "const emit = defineEmits(['${1}'])"
     ],
     "description": "Composition API script setup - defineEmits"
+  },
+  "Vue Composition API - script setup & slots": {
+    "prefix": "v3defineSlots",
+    "body": [
+      "const slots = defineSlots<{",
+      "\t${1}",
+      "}>()"
+    ],
+    "description": "Composition API script setup - defineSlots"
   }
 }
