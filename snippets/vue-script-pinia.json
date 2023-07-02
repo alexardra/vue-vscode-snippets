@@ -1,0 +1,48 @@
+{
+  "Pinia Store": {
+    "prefix": "v3store",
+    "body": [
+      "import { defineStore } from \"pinia\"",
+      "",
+      "export const store = defineStore({",
+      "\tid: \"\",",
+      "\tstate: () => ({",
+      "\t\t${1:value}: 0",
+      "\t}),",
+      "\tgetters: {",
+      "\t\t${2:value}: (state) => {",
+      "\t\t\treturn state.value;",
+      "\t\t}",
+      "\t},",
+      "\tactions: {",
+      "\t\t${3:updateValue}(payload) {",
+      "\t\t\tthis.value = payload;",
+      "\t\t}",
+      "\t}",
+      "})"
+    ],
+    "description": "pinia store module base"
+  },
+  "Pinia Getters": {
+    "prefix": "v3getter",
+    "body": [
+      "getters: {",
+      "\t${1:value}: state => {",
+      "\t\treturn state.${1:value};",
+      "\t}",
+      "}"
+    ],
+    "description": "pinia getters"
+  },
+  "Pinia Action": {
+    "prefix": "v3action",
+    "body": [
+      "actions: {",
+      "\t${1:updateValue}(${2:payload}) {",
+      "\t\tthis.value = payload;",
+      "\t}",
+      "}"
+    ],
+    "description": "pinia action"
+  }
+}

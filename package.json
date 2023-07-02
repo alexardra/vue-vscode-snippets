@@ -83,6 +83,10 @@
       {
         "language": "typescript",
         "path": "./snippets/vue-script-ts.json"
+      },
+      {
+        "language": "typescript",
+        "path": "./snippets/vue-script-pinia.json"
       }
     ]
   }

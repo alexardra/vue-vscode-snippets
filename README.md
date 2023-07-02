@@ -131,6 +131,8 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 
 
 ### Vue 3 script setup
+
+| Snippet             | Purpose                                               |
 | ------------------- | ----------------------------------------------------- |
 | `v3defineProps`        | Vue Composition API script setup defineProps       |
 | `v3defineEmits`        | Vue Composition API script setup defineEmits       |
@@ -148,6 +150,15 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | `vmodule`       | Vuex Module                    |
 | `vstore-import` | Import vuex store into main.js |
 | `vstore2`       | Updated Base for Vuex store    |
+
+### Pinia
+
+| Snippet         | Purpose                        |
+| --------------- | ------------------------------ |
+| `v3store`        | Base for Pinia store module   |
+| `v3getter`       | Pinia Getter                  |
+| `v3action`       | Pinia Action                  |
+
 
 ### Vue Router
 
