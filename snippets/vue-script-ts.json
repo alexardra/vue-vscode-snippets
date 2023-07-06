@@ -8,6 +8,17 @@
     ],
     "description": "Composition API script setup - defineProps"
   },
+  "Vue Composition API - script setup & props with defaults": {
+    "prefix": "v3withDefaults",
+    "body": [
+      "const props = withDefaults(defineProps<{",
+      "\t${1:value}?: string",
+      "}>(), {",
+      "\t${1:value}: 'hello',",
+      "})"
+    ],
+    "description": "Composition API script setup - withDefaults defineProps"
+  },
   "Vue Composition API - script setup & emits": {
     "prefix": "v3defineEmits",
     "body": [

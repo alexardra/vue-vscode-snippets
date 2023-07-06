@@ -133,11 +133,12 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 
 ### Vue 3 script setup
 
-| Snippet             | Purpose                                               |
-| ------------------- | ----------------------------------------------------- |
-| `v3defineProps`        | Vue Composition API script setup defineProps       |
-| `v3defineEmits`        | Vue Composition API script setup defineEmits       |
-| `v3defineSlots`        | Vue Composition API script setup defineSlots       |
+| Snippet             | Purpose                                                 |
+| ------------------- | ------------------------------------------------------- |
+| `v3defineProps`        | Vue Composition API script setup defineProps         |
+| `v3withDefaults`        | Vue Composition API script setup props withDefaults |
+| `v3defineEmits`        | Vue Composition API script setup defineEmits         |
+| `v3defineSlots`        | Vue Composition API script setup defineSlots         |
 
 
 ### Vuex
@@ -205,6 +206,13 @@ You can enable tab completion (recommended) by opening `Code > Preferences > Set
 | Snippet     | Purpose                 |
 | ----------- | ----------------------- |
 | `gitignore` | .gitignore file presets |
+
+## Build
+
+To generate `.vsix` file run command:
+```
+$ vsce package
+```
 
 ## Contributing
 
